@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}Home{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <a href ='#'>Home</a>
+        <a href ='#'>Courses</a>
+        <a href ='#'>Contact</a>
+        <a href ='#'>Career</a>
+    </nav>
+    <h3>Sharma Computer Academy</h3>
+<p>
+    We at SCA are a group of highly skilled and qualified software professionals,<br>
+    who are working towards to attain mutual goal,<br> 
+    the goal of "Moulding The Talented into Most Demanded".<br>
+    SCA is a premier organization founded in 1998,<br> 
+    growing as an IT Training/service providers<br> 
+    and determined to set high standards in IT industry.
+</p>
+<p>
+    We are offering courses in latest technologies of IT<br>
+    like Python, Django, JSE, JEE,C#(sharp), Asp.Net,PHP, Android,Networking and IPv6 Area (CCNA, CNE6 – Level 1 (Silver) and CNE6 – Level 2 (Gold)).<br>
+    SCA PIP (“Project Implementation Program”) will help students<br>
+    acquire specialized skills for project development.
+</p>   
+
+    {% block content %}
+    {% endblock %}
+   <hr>
+   {% block footer %}
+   &copy; 2019 All rights reserved
+   {% endblock %}
+   </body>
+   </html>
